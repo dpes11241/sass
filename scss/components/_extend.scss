@@ -1,0 +1,12 @@
+// The @extend directive lets you share a set of CSS properties from one selector to another.
+
+.button-base {
+    border-radius: 2px;
+    margin: 5px;
+ }
+
+ .menu-button {
+    @extend .button-base;
+    background-color: red;
+    color: white;
+ }

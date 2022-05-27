@@ -1,0 +1,13 @@
+// <div class="block block--mod">
+//     <span class="block__elem"></span>
+// </div>
+
+.block{
+    color: #ccc;
+    &--mod{
+        padding: 0;
+    }
+    &__elem{
+        margin: 0;
+    }
+}

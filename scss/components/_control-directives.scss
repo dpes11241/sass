@@ -1,0 +1,7 @@
+$test: 6;
+
+body {
+   @if $test < 5 {
+       background: #ccc;
+    }
+}
